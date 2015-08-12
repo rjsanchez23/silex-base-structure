@@ -13,7 +13,7 @@ Silex uses `Composer`_ to ease the creation of a new project:
 
 .. code-block:: console
 
-    $ composer create-project rjsanchez23/silex-base path/to/install ~1.0@dev
+    $  git clone https://github.com/rjsanchez23/silex-base-structure.git path/to/install
 
 Composer will create a new Silex project under the `path/to/install` directory.
 
