@@ -8,6 +8,7 @@ use Silex\Provider\ServiceControllerServiceProvider;
 use Silex\Provider\HttpFragmentServiceProvider;
 
 $app = new Application();
+
 $app->register(new RoutingServiceProvider());
 $app->register(new ValidatorServiceProvider());
 $app->register(new ServiceControllerServiceProvider());
@@ -18,7 +19,7 @@ $app->register(new Silex\Provider\DoctrineServiceProvider(), array(
     'db.options' => array(
         'driver' => 'pdo_mysql',
         'host' => 'localhost',
-        'dbname' => 'sphinx_demo',
+        'dbname' => 'demo',
         'user' => 'root',
         'password' => 'root',
         'charset' => 'utf8',
