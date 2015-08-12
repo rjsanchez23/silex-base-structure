@@ -1,4 +1,4 @@
-Silex Skeleton
+Silex Base
 ==============
 
 Welcome to the Silex Skeleton - a fully-functional Silex application that you
@@ -6,31 +6,15 @@ can use as the skeleton for your new applications.
 
 This document contains information on how to start using the Silex Skeleton.
 
-Creating a Silex Application
+Creating a base Silex Application
 ----------------------------
 
-Silex uses `Composer`_ to ease the creation of a new project:
+
 
 .. code-block:: console
 
     $  git clone https://github.com/rjsanchez23/silex-base-structure.git path/to/install
 
-Composer will create a new Silex project under the `path/to/install` directory.
-
-Browsing the Demo Application
------------------------------
-
-Congratulations! You're now ready to use Silex.
-
-To see a real-live Silex page in action, start the PHP built-in web server with
-command:
-
-.. code-block:: console
-
-    $ cd path/to/install
-    $ composer run
-
-Then, browse to http://localhost:8888/.
 
 Getting started with Silex
 --------------------------
