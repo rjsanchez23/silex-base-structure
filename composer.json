@@ -1,5 +1,5 @@
 {
-    "name": "fabpot/silex-skeleton",
+    "name": "rjsanchez23/silex-base",
     "description": "A pre-configured skeleton for the Silex microframework",
     "license": "MIT",
     "type": "project",
@@ -28,8 +28,12 @@
     "autoload": {
         "psr-0": { "": "src/" }
     },
-    "minimum-stability": "dev",
-   
+
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
+    },
     "scripts": {
         "run": [
             "echo 'Started web server on http://localhost:8888'",
